@@ -9,6 +9,6 @@ au BufRead,BufNewFile *.ncl setf ncl
 set complete-=k complete+=k " Add dictionary search (as per dictionary option)
 set wildmode=list:full
 set wildmenu
-au BufRead,BufNewFile *.ncl set dictionary=~/.vim/dictionary/ncl.dic
+au BufRead,BufNewFile *.ncl set dictionary=../dictionary/ncl.dic
 
 
